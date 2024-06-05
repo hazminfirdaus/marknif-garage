@@ -7,8 +7,8 @@ The Auto Service Booking System is a web-based application designed to streamlin
 ## Features
 
 - **Admin**: Manage mechanics, view all bookings, manage customers, and oversee schedules.
-- **Mechanic**: View and manage their own schedules, appointments, and account settings.
-- **Customer**: View available sessions, book appointments, manage their bookings, and account settings.
+- **Mechanic**: View and manage their own schedules, appointments, account settings, and email notifications.
+- **Customer**: View available sessions, book appointments, manage their bookings, account settings, and email notifications.
 
 ## Live Demo
 The website is accesible at: [Marknif Garage](https://marknif.com/)
@@ -90,6 +90,8 @@ Mechanics have the following functionalities:
 
 - **Dashboard**: Overview of their schedule and appointments.
 - **Manage Schedule**: View their schedule and update availability.
+- **Profile Settings**: Update their personal information, delete account.
+- **Email Notifications**: Receive confirmation emails upon successful appointment booking or booking cancellation.
 
 ### Customer
 
@@ -98,25 +100,26 @@ Customers have the following functionalities:
 - **Dashboard**: Overview of their upcoming appointments.
 - **View Available Sessions**: Search and view available sessions for booking up to 2 weeks in prior.
 - **Book Appointments**: Book an appointment with a mechanic.
-- **Manage Bookings**: View, reschedule, or cancel their appointments.
+- **Manage Bookings**: View, retrieve booking history or cancel their appointments.
 - **Profile Settings**: Update their personal information, delete account.
+- **Email Notifications**: Receive confirmation emails upon successful appointment booking or booking cancellation.
 
 ## Future Enhancements
 
 ### Mechanic
+
+Customers to have the following functionalities:
 
 - **Appointment Management**: Update the status of appointments (e.g., completed, cancelled).
 - **Communication**: Communicate with customers regarding their appointments.
 
 ### Customer
 
-Customers have the following functionalities:
+Customers to have the following functionalities:
 
-- **Dashboard**: Overview of their upcoming appointments.
-- **View Available Sessions**: Search and view available sessions for booking up to 2 weeks in prior.
-- **Book Appointments**: Book an appointment with a mechanic.
-- **Manage Bookings**: View, reschedule, or cancel their appointments.
-- **Profile Settings**: Update their personal information, delete account.
+- **Service Reminder**: Send a SMS or email reminder a day before appointment.
+- **In-App Inbox & Notifications**: Inbox with updates and reminders.
+- **24 hours Cancellation Policy**: Limit cancellation 24 hours before appointment, cancellation fee if customers wish to proceed with cancellation.
 
 ## Support
 
