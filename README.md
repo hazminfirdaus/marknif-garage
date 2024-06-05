@@ -106,7 +106,7 @@ Customers have the following functionalities:
 
 ## Future Enhancements
 
-In general, improve security with user authentication for instance password hashing and encrytption.
+In general, improve security with user authentication for instance; password hashing and encryption.
 
 ### Mechanic
 
