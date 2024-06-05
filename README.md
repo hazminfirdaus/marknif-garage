@@ -17,51 +17,56 @@ The website is accesible at: [Marknif Garage](https://marknif.com/)
 
 ### Prerequisites
 
-- XAMPP (or any similar local server environment like WAMP, MAMP, or LAMP).
-- A web server (e.g., Apache, Nginx).
-- PHP (version 7.4 or higher).
-- MySQL or MariaDB database.
+- XAMPP (or any similar local server environment like WAMP, MAMP, or LAMP) which includes:
+   - A web server (e.g., Apache, Nginx).
+   - PHP (version 7.4 or higher).
+   - MySQL or MariaDB database.
 - Composer (for dependency management).
 - Git (optional, for cloning the repository).
 
 ### Steps
 
-1. **Clone the Repository (optional)**:
+1. **Download and Install XAMPP**:
+   Download XAMPP from Apache Friends and install it.
+   Start the Apache and MySQL modules from the XAMPP Control Panel.
+
+2. **Clone the Repository (optional)**:
    If you have Git installed, you can clone the repository using:
    ```sh
    git clone https://github.com/hazminfirdaus/marknif-garage.git
    ```
 
-2. **Download the Repository**:
+3. **Download the Repository**:
    If you don't use Git, you can download the repository as a ZIP file from GitHub and extract it.
 
-3. **Move to the Project Directory**:
+4. **Move to the Project Directory**:
    ```sh
-   cd auto-marknif-garage
+   cd marknif-garage
    ```
 
-4. **Install Dependencies**:
+5. **Install Dependencies**:
    Run Composer to install the necessary PHP dependencies:
    ```sh
    composer install
    ```
 
-5. **Database Setup**:
+6. **Database Setup**:
    - Create a new database in your MySQL server.
    - Import the provided SQL file to set up the database schema and initial data:
      ```sh
      mysql -u username -p database_name < database/marknif_garage.sql
      ```
    
-6. **Configuration**:
+7. **Configuration**:
    - Rename the `example-connection.php` file to `connection.php`.
    - Update the `connection.php` file with your database credentials and other configuration settings.
 
-7. **Set Up Your Web Server**:
+8. **Set Up Your Web Server**:
    - Configure your web server to serve the project directory.
    - Make sure the document root is set to the public directory of the project.
+   - Typically, for XAMPP, you can move the project folder to C:\xampp\htdocs\ (Windows) or /Applications/XAMPP/htdocs/ (macOS).
 
-8. **Access the Application**:
+9. **Access the Application**:
    - Open your web browser and navigate to the URL where you set up the application.
    - For instance, `http://localhost/8000 or your-own-port-number`
 
