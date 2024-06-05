@@ -51,7 +51,8 @@ The website is accesible at: [Marknif Garage](https://marknif.com/)
    ```
 
 6. **Database Setup**:
-   - Create a new database in your MySQL server.
+   - Open phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser.
+   - Create a new database, e.g., marknif_garage.
    - Import the provided SQL file to set up the database schema and initial data:
      ```sh
      mysql -u username -p database_name < database/marknif_garage.sql
@@ -68,7 +69,7 @@ The website is accesible at: [Marknif Garage](https://marknif.com/)
 
 9. **Access the Application**:
    - Open your web browser and navigate to the URL where you set up the application.
-   - For instance, `http://localhost/8000 or your-own-port-number`
+   - For instance, `http://localhost/marknif-garage`
 
 ## Functionality
 
