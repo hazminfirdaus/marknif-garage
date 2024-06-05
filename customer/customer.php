@@ -91,7 +91,7 @@
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-patient menu-active menu-icon-patient-active">
+                    <td class="menu-btn menu-icon-customer menu-active menu-icon-customer-active">
                         <a href="customer.php" class="non-style-link-menu  non-style-link-menu-active"><div><p class="menu-text">My Customers</p></a></div>
                     </td>
                 </tr>
