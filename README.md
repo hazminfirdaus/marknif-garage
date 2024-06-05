@@ -1,14 +1,17 @@
-# Auto Service Scheduling System
+# Auto Service Booking System: Marknif Garage
 
 ## Overview
 
-The Auto Service Scheduling System is a web-based application designed to streamline the process of booking and managing auto service appointments. This system allows customers to book appointments with mechanics, mechanics to manage their schedules, and admins to oversee the entire operation.
+The Auto Service Booking System is a web-based application designed to streamline the process of booking and managing auto service appointments. This system allows customers to book appointments with mechanics, mechanics to manage their schedules, and admins to oversee the entire operation.
 
 ## Features
 
 - **Admin**: Manage mechanics, view all bookings, manage customers, and oversee schedules.
 - **Mechanic**: View and manage their own schedules, appointments, and account settings.
 - **Customer**: View available sessions, book appointments, manage their bookings, and account settings.
+
+## Live Demo
+The website is accesible at: [Marknif Garage](https://marknif.com/)
 
 ## Installation Guide
 
@@ -26,7 +29,7 @@ The Auto Service Scheduling System is a web-based application designed to stream
 1. **Clone the Repository (optional)**:
    If you have Git installed, you can clone the repository using:
    ```sh
-   git clone https://github.com/hazminfirdaus/auto-service-scheduling-system.git
+   git clone https://github.com/hazminfirdaus/marknif-garage.git
    ```
 
 2. **Download the Repository**:
@@ -34,7 +37,7 @@ The Auto Service Scheduling System is a web-based application designed to stream
 
 3. **Move to the Project Directory**:
    ```sh
-   cd auto-service-scheduling-system
+   cd auto-marknif-garage
    ```
 
 4. **Install Dependencies**:
@@ -47,7 +50,7 @@ The Auto Service Scheduling System is a web-based application designed to stream
    - Create a new database in your MySQL server.
    - Import the provided SQL file to set up the database schema and initial data:
      ```sh
-     mysql -u username -p database_name < database/auto_service.sql
+     mysql -u username -p database_name < database/marknif_garage.sql
      ```
    
 6. **Configuration**:
@@ -115,4 +118,4 @@ For any issues or support, please contact the project maintainers or create an i
 
 ---
 
-Thank you for using the Auto Service Scheduling System!
+Thank you for using the Auto Service Booking System!
